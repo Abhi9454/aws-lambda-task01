@@ -37,7 +37,7 @@
     ]
   },
   "hello_world" : {
-    "name" : " cmtr-bc6e7dd5-hello_world-test",
+    "name" : "hello_world",
     "version" : "1.0.0",
     "func_name" : "com.task02.HelloWorld",
     "deployment_package" : "task02-1.0.0.jar",
