@@ -34,26 +34,6 @@
     "allowed_accounts": [
       "${account_id}"
     ]
-  },
-  "hello_world": {
-    "name": "cmtr-bc6e7dd5-hello_world-test",
-    "iam_role_name": "hello_world_role",
-    "memory" : 1024,
-    "timeout" : 300,
-    "resource_type" : "lambda",
-    "runtime" : "java11",
-    "func_name" : "com.task02.HelloWorld",
-    "publish_version" : true,
-    "url_config":{
-      "auth_type":"NONE",
-      "invoke_mode":"BUFFERED",
-      "cors":{
-        "allow_credentials":false,
-        "allow_method":["GET"],
-        "allow_origins":["*"]
-      }
-    }
-
   }
 
 }
