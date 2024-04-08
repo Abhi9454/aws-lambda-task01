@@ -4,6 +4,7 @@
       "Statement": [
         {
           "Action": [
+            "lambda:InvokeFunctionUrl",
             "logs:CreateLogGroup",
             "logs:CreateLogStream",
             "logs:PutLogEvents",
