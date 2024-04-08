@@ -10,16 +10,16 @@ import com.syndicate.deployment.model.lambda.url.InvokeMode;
 import java.util.LinkedHashMap;
 import java.util.Map;
 
-@LambdaHandler(lambdaName = "hello_world",
-	roleName = "hello_world-role",
-	isPublishVersion = true,
-	aliasName = "${lambdas_alias_name}",
-	logsExpiration = RetentionSetting.SYNDICATE_ALIASES_SPECIFIED
-)
-@LambdaUrlConfig(
-        authType = AuthType.NONE,
-        invokeMode = InvokeMode.BUFFERED
-)
+// @LambdaHandler(lambdaName = "hello_world",
+// 	roleName = "hello_world-role",
+// 	isPublishVersion = true,
+// 	aliasName = "${lambdas_alias_name}",
+// 	logsExpiration = RetentionSetting.SYNDICATE_ALIASES_SPECIFIED
+// )
+// @LambdaUrlConfig(
+//         authType = AuthType.NONE,
+//         invokeMode = InvokeMode.BUFFERED
+// )
 
 public class HelloWorld implements RequestHandler<Object, Map<String, Object>> {
 
